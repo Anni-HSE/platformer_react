@@ -1,0 +1,45 @@
+.root {
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 2000;
+}
+
+.health {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.healthIcon {
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    margin: 0 20px
+}
+
+.healthValue {
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff
+}
+
+.livesContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.lives {
+    width: 20px;
+    height: 20px;
+    margin: 20px;
+    background-size: cover;
+}

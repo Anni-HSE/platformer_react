@@ -1,6 +1,7 @@
 import React, { PureComponent } from "react";
 
 class Box extends PureComponent {
+
     render() {
         const size = 100;
         const x = this.props.x - size / 2;

@@ -1,0 +1,13 @@
+@keyframes dead {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(-90deg);
+    }
+}
+
+.isDead {
+    animation: dead 0.5s linear 0s;
+    transform: rotate(-90deg);
+}
